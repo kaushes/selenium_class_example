@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/UCSC/Day_06/Day06/src/test/java/pom/test/TestNGUtil.java">
+        <parameter name="browser" value="chrome"></parameter>
+        <classes>
+            <class name="pom.test.CellPhoneCategory">
+                <methods>
+                    <include name="searchMobilePhone"/>
+                </methods>
+            </class>
+            <class name="pom.test.ClothingCategory">
+                <methods>
+                    <include name="searchShirt"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
